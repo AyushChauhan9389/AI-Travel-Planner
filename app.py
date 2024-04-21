@@ -9,7 +9,7 @@ st.subheader('Plan your next trip with AI')
 
 # User input section in the sidebar
 st.sidebar.header('Enter details to generate a travel plan:')
-api_key = st.sidebar.text_input('Enter Your Google API Key', type="password")
+api_key="AIzaSyAHB8fva0oJVkCPPwBUwUp6t3fVyX_Yxo0"
 source = st.sidebar.text_input('Source', 'New York')
 destination = st.sidebar.text_input('Destination', 'Los Angeles')
 date_input = st.sidebar.date_input('Travel Start Date', min_value=date.today())
